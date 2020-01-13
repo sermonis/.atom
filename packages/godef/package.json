@@ -1,0 +1,62 @@
+{
+  "_atomModuleCache": {
+    "version": 1,
+    "dependencies": [],
+    "extensions": {
+      ".coffee": [
+        "lib/godef.coffee"
+      ],
+      ".json": [
+        "package.json"
+      ]
+    },
+    "folders": []
+  },
+  "_from": "https://www.atom.io/api/packages/godef/versions/0.2.5/tarball",
+  "_id": "godef@0.2.5",
+  "_inBundle": false,
+  "_integrity": "sha512-VurGZk7ex3sjOVvExraz28eDaAlAS+z+RsxlTontQYqQTm8cre86L6XlqVQqCIeMwFRl1ADqhV5DMVRWXSAxnw==",
+  "_location": "/godef",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/godef/versions/0.2.5/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/godef/versions/0.2.5/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/godef/versions/0.2.5/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/godef/versions/0.2.5/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/godef/versions/0.2.5/tarball",
+  "_shasum": "e18806b7126cbb48ca0ac45868f1cba41d61f9a5",
+  "_spec": "https://www.atom.io/api/packages/godef/versions/0.2.5/tarball",
+  "_where": "C:\\Users\\POZDNY~1\\AppData\\Local\\Temp\\apm-install-dir-1191113-28428-5qmz6m.9iftd",
+  "activationCommands": {
+    "atom-workspace": "godef:toggle"
+  },
+  "bugs": {
+    "url": "https://github.com/litgh/atom-godef/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "atom-space-pen-views": "^2.0.0",
+    "q": "^1.0.1",
+    "underscore-plus": "^1.6.6"
+  },
+  "deprecated": false,
+  "description": "Find definition under current cursor for golang using 'godef'",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "homepage": "https://github.com/litgh/atom-godef",
+  "license": "MIT",
+  "main": "./lib/godef",
+  "name": "godef",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/litgh/atom-godef.git"
+  },
+  "version": "0.2.5"
+}

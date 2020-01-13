@@ -1,0 +1,31 @@
+'.source.stylus':
+  'todo':
+    'prefix': 'todo'
+    'body': '// TODO: $0'
+  'fixme':
+    'prefix': 'fixme'
+    'body': '// FIXME: $0'
+  'changed':
+    'prefix': 'changed'
+    'body': '// CHANGED: $0'
+  'xxx':
+    'prefix': 'xxx'
+    'body': '// XXX: $0'
+  'idea':
+    'prefix': 'idea'
+    'body': '// IDEA: $0'
+  'hack':
+    'prefix': 'hack'
+    'body': '// HACK: $0'
+  'note':
+    'prefix': 'note'
+    'body': '// NOTE: $0'
+  'review':
+    'prefix': 'review'
+    'body': '// REVIEW: $0'
+  'bug':
+    'prefix': 'bug'
+    'body': '// BUG: $0'
+  'question':
+    'prefix': 'question'
+    'body': '// QUESTION: $0'

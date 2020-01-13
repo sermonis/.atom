@@ -1,0 +1,58 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "C:\\Users\\POZDNY~1\\AppData\\Local\\Temp\\d-119525-11016-1is9nwd.nwjnhfr\\package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "C:\\Users\\POZDNY~1\\AppData\\Local\\Temp\\d-119525-11016-1is9nwd.nwjnhfr\\package.tgz",
+        "spec": "C:\\Users\\POZDNY~1\\AppData\\Local\\Temp\\d-119525-11016-1is9nwd.nwjnhfr\\package.tgz",
+        "type": "local"
+      },
+      "C:\\Users\\POZDNY~1\\AppData\\Local\\Temp\\apm-install-dir-119525-11016-1mykpru.dupg69lik9"
+    ]
+  ],
+  "_from": "..\\d-119525-11016-1is9nwd.nwjnhfr\\package.tgz",
+  "_id": "stylus-language@2.6.0",
+  "_inCache": true,
+  "_location": "/stylus-language",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "C:\\Users\\POZDNY~1\\AppData\\Local\\Temp\\d-119525-11016-1is9nwd.nwjnhfr\\package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "C:\\Users\\POZDNY~1\\AppData\\Local\\Temp\\d-119525-11016-1is9nwd.nwjnhfr\\package.tgz",
+    "spec": "C:\\Users\\POZDNY~1\\AppData\\Local\\Temp\\d-119525-11016-1is9nwd.nwjnhfr\\package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:..\\d-119525-11016-1is9nwd.nwjnhfr\\package.tgz",
+  "_shasum": "623c43fb7f7369c5670ecd567060c8a2dd8303f5",
+  "_shrinkwrap": null,
+  "_spec": "C:\\Users\\POZDNY~1\\AppData\\Local\\Temp\\d-119525-11016-1is9nwd.nwjnhfr\\package.tgz",
+  "_where": "C:\\Users\\POZDNY~1\\AppData\\Local\\Temp\\apm-install-dir-119525-11016-1mykpru.dupg69lik9",
+  "bugs": {
+    "url": "https://github.com/callisto2410/stylus-language/issues"
+  },
+  "dependencies": {},
+  "description": "The best support for the language of Stylus in Atom, with syntax highlighting, automatic indentations and snippets.",
+  "devDependencies": {},
+  "engines": {
+    "atom": "*"
+  },
+  "homepage": "https://github.com/callisto2410/stylus-language",
+  "license": "MIT",
+  "name": "stylus-language",
+  "optionalDependencies": {},
+  "readme": "# Support for Stylus in Atom\n\nThe best support for the language of Stylus in Atom, with syntax highlighting, automatic indentations and snippets.\n\n![2017-08-15 10-37-42](https://user-images.githubusercontent.com/30486581/29298871-ddee339a-81a5-11e7-96e8-7bf7a1795c82.png)\n\n\n# Installation\n\n```\napm install stylus-language\n```\n\n# License\n\nMIT\n\n\nLearn more about the Atom: [atom.io](https://atom.io/).\n\nLearn more about the stylus: [stylus-lang.com](http://stylus-lang.com/).\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/callisto2410/stylus-language.git"
+  },
+  "version": "2.6.0"
+}

@@ -1,0 +1,103 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "C:\\Users\\POZDNY~1\\AppData\\Local\\Temp\\d-119525-8500-bdy3hn.03oez5mi\\package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "C:\\Users\\POZDNY~1\\AppData\\Local\\Temp\\d-119525-8500-bdy3hn.03oez5mi\\package.tgz",
+        "spec": "C:\\Users\\POZDNY~1\\AppData\\Local\\Temp\\d-119525-8500-bdy3hn.03oez5mi\\package.tgz",
+        "type": "local"
+      },
+      "C:\\Users\\POZDNY~1\\AppData\\Local\\Temp\\apm-install-dir-119525-8500-11p9emj.7ziyop3nmi"
+    ]
+  ],
+  "_from": "..\\d-119525-8500-bdy3hn.03oez5mi\\package.tgz",
+  "_id": "highlight-selected@0.16.0",
+  "_inCache": true,
+  "_location": "/highlight-selected",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "C:\\Users\\POZDNY~1\\AppData\\Local\\Temp\\d-119525-8500-bdy3hn.03oez5mi\\package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "C:\\Users\\POZDNY~1\\AppData\\Local\\Temp\\d-119525-8500-bdy3hn.03oez5mi\\package.tgz",
+    "spec": "C:\\Users\\POZDNY~1\\AppData\\Local\\Temp\\d-119525-8500-bdy3hn.03oez5mi\\package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:..\\d-119525-8500-bdy3hn.03oez5mi\\package.tgz",
+  "_shasum": "a7008573e744577d6e54091ba08c7f408aeccd2d",
+  "_shrinkwrap": null,
+  "_spec": "C:\\Users\\POZDNY~1\\AppData\\Local\\Temp\\d-119525-8500-bdy3hn.03oez5mi\\package.tgz",
+  "_where": "C:\\Users\\POZDNY~1\\AppData\\Local\\Temp\\apm-install-dir-119525-8500-11p9emj.7ziyop3nmi",
+  "bugs": {
+    "url": "https://github.com/richrace/highlight-selected/issues"
+  },
+  "consumedServices": {
+    "status-bar": {
+      "versions": {
+        "^1.0.0": "consumeStatusBar"
+      }
+    },
+    "scroll-marker": {
+      "versions": {
+        "0.1.0": "consumeScrollMarker"
+      }
+    }
+  },
+  "dependencies": {
+    "atom-package-deps": "^5.0.0",
+    "debounce": "^1.2.0",
+    "grim": "^2.0.2"
+  },
+  "description": "Highlights the current word selected when double clicking",
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.13.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-prettier": "^4.0.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-prettier": "^3.0.1",
+    "prettier": "^1.16.3"
+  },
+  "dist": {
+    "shasum": "7c9da46b1412aceb069f8ca2ca54d014986ad408"
+  },
+  "engines": {
+    "atom": ">=1.13.0 <2.0.0"
+  },
+  "homepage": "https://github.com/richrace/highlight-selected",
+  "keywords": [
+    "highlight selected",
+    "highlight selection",
+    "highlight occurrences"
+  ],
+  "license": "MIT",
+  "main": "./lib/main",
+  "name": "highlight-selected",
+  "optionalDependencies": {},
+  "package-deps": [
+    "scroll-marker"
+  ],
+  "providedServices": {
+    "highlightSelected": {
+      "description": "Exposes Highlight Selected Events",
+      "versions": {
+        "1.0.0": "provideHighlightSelectedV1Deprecated",
+        "2.0.0": "provideHighlightSelectedV2"
+      }
+    }
+  },
+  "readme": "# Highlight Selected\n\nDouble click on a word to highlight it throughout the open file.\n\nThis is something hacky I've put together as I missed the functionality that Sublime gave. As such, it's doesn't work 100% but is good enough to start!\n\nSome code and has been take from Atom's find and replace package ([link](https://github.com/atom/find-and-replace))\n\nPlease log any issues and pull requests are more than welcome!\n\n![Gif in action](http://i.imgur.com/C5FnzzQ.gif)\n\n# Issues and Todo\n\n- Some double click events are not triggered\n- Refactor and tidy up the code\n- Add specs to test it\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/richrace/highlight-selected.git"
+  },
+  "version": "0.16.0"
+}

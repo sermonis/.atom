@@ -1,0 +1,68 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "C:\\Users\\POZDNY~1\\AppData\\Local\\Temp\\d-119525-17216-1nx3437.jb9h33di\\package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "C:\\Users\\POZDNY~1\\AppData\\Local\\Temp\\d-119525-17216-1nx3437.jb9h33di\\package.tgz",
+        "spec": "C:\\Users\\POZDNY~1\\AppData\\Local\\Temp\\d-119525-17216-1nx3437.jb9h33di\\package.tgz",
+        "type": "local"
+      },
+      "C:\\Users\\POZDNY~1\\AppData\\Local\\Temp\\apm-install-dir-119525-17216-vmw1uf.ucwn4s4i"
+    ]
+  ],
+  "_from": "..\\d-119525-17216-1nx3437.jb9h33di\\package.tgz",
+  "_id": "vuetify-atom@0.2.2",
+  "_inCache": true,
+  "_location": "/vuetify-atom",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "C:\\Users\\POZDNY~1\\AppData\\Local\\Temp\\d-119525-17216-1nx3437.jb9h33di\\package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "C:\\Users\\POZDNY~1\\AppData\\Local\\Temp\\d-119525-17216-1nx3437.jb9h33di\\package.tgz",
+    "spec": "C:\\Users\\POZDNY~1\\AppData\\Local\\Temp\\d-119525-17216-1nx3437.jb9h33di\\package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:..\\d-119525-17216-1nx3437.jb9h33di\\package.tgz",
+  "_shasum": "715ce90bf94a0d1751449ffac3101fff2ca79d4d",
+  "_shrinkwrap": null,
+  "_spec": "C:\\Users\\POZDNY~1\\AppData\\Local\\Temp\\d-119525-17216-1nx3437.jb9h33di\\package.tgz",
+  "_where": "C:\\Users\\POZDNY~1\\AppData\\Local\\Temp\\apm-install-dir-119525-17216-vmw1uf.ucwn4s4i",
+  "activationCommands": {
+    "atom-workspace": "vuetify-atom:toggle"
+  },
+  "bugs": {
+    "url": "https://github.com/vuetifyjs/vuetify-atom/issues"
+  },
+  "dependencies": {},
+  "description": "Official Vuetifyjs Atom Extension",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/vuetifyjs/vuetify-atom#readme",
+  "keywords": [
+    "vuetify",
+    "vuetifyjs official extension",
+    "vuetify autocomplete",
+    "vuetify-atom"
+  ],
+  "license": "MIT",
+  "main": "./lib/vuetify-atom",
+  "name": "vuetify-atom",
+  "optionalDependencies": {},
+  "readme": "<p align=\"center\">\n  <img height=\"200px\"\n  src=\"https://res.cloudinary.com/confidante/image/upload/v1520961320/logo_ew2tpg.png\">\n</p>\n\n<h2 align=\"center\">vuetify-atom</h2>\n<p align=\"center\">Vuetify atom extension</p>\n\n`vuetify-atom` is the official extension for Vuetifyjs when working in Atom. It provides snippets and autocomplete functionality for Vuetifyjs.\n\n## Documentation\nFor all snippets available for Atom editor [click here](https://github.com/vuetifyjs/vuetify-atom/blob/master/documentation.md)\n\n## Installation\n### Command Line\n1. In the terminal, install the package via apm:\n\n    ```sh\n    apm install vuetify-atom\n    ```\n\n### GUI\n1. Launch Atom\n2. Open Settings View using <kbd>Cmd+,</kbd> on macOS or <kbd>Ctrl+,</kbd> on other platforms\n3. Click the Install tab on the left side\n4. Enter `vuetify-atom` in the search box and press <kbd>Enter</kbd>\n5. Click the \"Install\" button that appears\n\n##  Usage\n#### Snippet\nYou don't need usage example if you are familiar with concept of snippets or you looked up the documentation. But here is an example:\n\nLet's suppose you want to insert Button componenet. For that you have to write full component.\n\n````HTML\n<v-btn>buttonText<v-btn>\n````\n\nBut in `vuetify-atom` only writing `vBtn` will give you all options available for Button component.\n\nEverything is in camel case and with 'v' prefix which is for Vuetifyjs.\n\nIf you want to insert a component with all of its props. Just write `v{component-name}WithProps`. This will insert component with all of its props. For example : `vBtnWithProps`, `vAvatarWithProps` etc.\n\n#### Templates\nEvery component in the Vuetify have additional code to write inside it. For example the `v-btn-toggle` component have `v-btn` inside it. Thats why `vuetify-atom` provides templates for them.\nThe syntax of template is pretty easy. `v{component}Template` or `v{component}Template{availableTemplate}`\nFor example `vBtnToggleTemplate` will give you following code.\n\n```HTML\n<v-btn-toggle mandatory multiple v-model=\"value\">\n  <v-btn flat>\n    <v-icon>icon</v-icon>\n  </v-btn>\n  <v-btn flat>\n    <v-icon>icon</v-icon>\n  </v-btn>\n  <v-btn flat>\n    <v-icon>icon</v-icon>\n  </v-btn>\n  <v-btn flat>\n    <v-icon>icon</v-icon>\n  </v-btn>\n</v-btn-toggle>\n```\n\nand `vBtnToggleTemplateTextIcon` will give you following code.\n````HTML\n<v-btn-toggle multiple mandatory v-model=\"value\">\n  <v-btn flat value=\"value\">\n    <span>text</span>\n    <v-icon>icon</v-icon>\n  </v-btn>\n  <v-btn flat value=\"value\">\n    <span>text</span>\n    <v-icon>icon</v-icon>\n  </v-btn>\n  <v-btn flat value=\"value\">\n    <span>text</span>\n    <v-icon>icon</v-icon>\n  </v-btn>\n  <v-btn flat value=\"value\">\n    <span>text</span>\n    <v-icon>icon</v-icon>\n  </v-btn>\n</v-btn-toggle>\n````\n\n## Upcoming features\n- on hover documentation for components and props\n- List of props per component\n\n## Changelog\n<a href=\"https://github.com/vuetifyjs/vuetify-atom/blob/master/CHANGELOG.md\" target=\"_blank\">Changelog</a>\n\n\n\n## Questions\nIf you have any questions, ideas or you want to discuss with me. Just raise a issue in `vuetify-atom` [github repository](https://github.com/vuetifyjs/vuetify-atom/issues).\n\n## License\n[MIT](https://github.com/vuetifyjs/vuetify-atom/blob/master/LICENSE)\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vuetifyjs/vuetify-atom.git"
+  },
+  "version": "0.2.2"
+}
